@@ -22,6 +22,8 @@
 
   <a href="https://github.com/leonazareth/OpenSpatialSanitation/blob/main/User_Manual.md">User Manual</a> •
 
+  <a href="https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Population_datasets.md">Population Datasets</a> •
+
   <a href="#credits">Credits</a> •
 
   <a href="#license">License</a> •
