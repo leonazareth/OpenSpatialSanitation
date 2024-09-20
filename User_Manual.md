@@ -109,7 +109,7 @@ To delimit the areas, follow these steps:
 
 <img src="./rep_images/03-BaseLayer_Delimitating.gif" alt="CRS_config" width="700">
 
-*Note: To edit, delete, or modify the attributes of the polygons, use QGIS’ native tools, such as **Select Features**, **Vertex Tool**, or **Field Calculator**.*
+*Note: To edit, delete, or modify the attributes of the polygons, use QGIS’ native tools, such as Delete Features, Vertex Tool, or Attribute table.*
 
 
 
