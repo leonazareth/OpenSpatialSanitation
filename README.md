@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="D:\OneDrive\MESTRADO IHE DELFT\__IHE - Course Material\__Thesis Research\Repository\OpenSpatialSanitation\rep_images\top_cover.png" alt="ArminC AutoExec">
+  <img src="./rep_images/top_cover.png" alt="ArminC AutoExec">
 </h1>
 
 
