@@ -62,8 +62,11 @@ This repository will also include documentation on installing and using the scri
 
   
 
-##### Downloading and installing steps:
+##### Downloading:
 
+
+
+<img src="./rep_images/Downloads.gif" alt="download">
 
   
 
