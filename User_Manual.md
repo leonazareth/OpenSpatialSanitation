@@ -142,7 +142,7 @@ The delimitation of the subareas is not done manually. Instead, the algorithm **
 
 ## Step Three - Delimitation of Subareas
 
-This process calculates indicators and suggests the most suitable sanitation system for each subarea. 
+This process creates a **Subarea Sanitation Suggestion** layer, by calculating indicators and the most suitable sanitation system for each subarea. 
 
 The population dataset is a mandatory input (raster or vector format), while streets, paths, and building footprint layers are optional data.
 
@@ -188,10 +188,49 @@ Population density is classified into low, medium, or high density based on the 
    - Clipped building footprint layer
    - Subarea calculated layer with indicators, sanitation suggestions, and additional recommendations
 
-**IMPORTANT:** The *Population points*, *Clipped street*, and *Building footprint* layers must not be deleted or renamed after they are generated. Doing so will cause issues with the recalculation algorithms explained in the following sections.
+6. Click **Run** to execute the algorithm.
 
 <img src="./rep_images/05-CalculateSanitationSystem.gif" alt="CRS_config" width="700">
 
-6. Click **Run** to execute the algorithm.
+**IMPORTANT:** The *Population points*, *Clipped street*, and *Building footprint* layers must not be deleted or renamed after they are generated. Doing so will cause issues with the recalculation algorithms explained in the following sections.
 
+## Adjustments to the Subareas
+
+Tools and scripts have been developed to allow users to make adjustments and modify the parameters of each **Subarea Sanitation Suggestion** feature individually, if needed, and quickly recalculate the associated indicators and results.
+
+There are two types of adjustments, each with its own recalculation method:
+
+### Adjustments to Parameters (without changing subarea geometry)
+
+To adjust parameters without altering the geometry:
+
+1. Toggle **Edit Mode** on the subarea result layer.
+
+2. Select the **Identify Features** tool.
+
+3. Click on the desired subarea.
+
+4. Modify the parameter(s) in the form.
+
+5. Click the **Recalculate Subarea** button at the bottom of the form.
+
+6. Click **OK** to confirm the changes.
+
+7. Save the layer.
+
+### Adjustments to Subarea Geometry
+
+To adjust the geometry of subareas:
+
+1. Toggle **Edit Mode** on the subarea result layer.
+
+2. Use QGIS' native tools to edit the geometries (e.g., move vertices, merge subareas, or subdivide).
+
+3. Run the script **04 - Recalculate Subareas**.
+
+4. Select the **Subarea Sanitation Suggestion** layer.
+
+5. Check the option to **Recalculate for changes in geometries**.
+
+6. Click **Run** to execute the recalculation.
 
