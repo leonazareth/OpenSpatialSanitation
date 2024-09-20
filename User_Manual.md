@@ -13,16 +13,16 @@
 1. [Creating and configuring a new project in QGIS](#creating-and-configuring-a-new-project-in-qgis)
 2. [Project settings](#project-settings)
 3. [Step One - Create Base Layers](#step-one---create-base-layers)
-  -  [Creating the base layers (configuring and running the script)](#creating-the-base-layers-configuring-and-running-the-script)
-  -  [Delimiting the Areas](#delimiting-the-areas)
+   -  [Creating the base layers (configuring and running the script)](#creating-the-base-layers-configuring-and-running-the-script)
+   -  [Delimiting the Areas](#delimiting-the-areas)
 4. [Step Two - Delimitation of Subareas](#step-two---delimitation-of-subareas)
-  -  [Creating the Subareas](#creating-the-subareas)
-  -  [Advanced Parameters (Optional)](#advanced-parameters-optional)
+   -  [Creating the Subareas](#creating-the-subareas)
+   -  [Advanced Parameters (Optional)](#advanced-parameters-optional)
 5. [Step Three - Sanitation System Evaluation](#step-three---sanitation-system-evaluation)
-  -  [Calculating indicators and suggested sanitation system](#calculating-indicators-and-suggested-sanitation-system)
+   -  [Calculating indicators and suggested sanitation system](#calculating-indicators-and-suggested-sanitation-system)
 6. [Adjustments to the Subareas](#adjustments-to-the-subareas)
-  -  [Adjustments to Parameters](#adjustments-to-parameters-without-changing-subarea-geometry)
-  -  [Adjustments to Subarea Geometry](#adjustments-to-subarea-geometry)
+   -  [Adjustments to Parameters](#adjustments-to-parameters-without-changing-subarea-geometry)
+   -  [Adjustments to Subarea Geometry](#adjustments-to-subarea-geometry)
 
 
 The step-by-step instructions for using the scripts developed are described below.
