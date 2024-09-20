@@ -35,7 +35,8 @@ In order for the scripts to work correctly, some settings must be made in the pr
 
 <div align="center">
 Example of a Mercator CRS configuration using meters:
-
+</div>
+<div align="center">
 <img src="./rep_images/CRS_config.png" alt="CRS_config" width="500">
 </div>
 
