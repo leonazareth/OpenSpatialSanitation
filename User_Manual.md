@@ -163,11 +163,11 @@ The suggested sanitation system (for the start and end of the plan) and addition
 <div align="center">
   <figure style="display: inline-block; margin-right: 20px;">
     <figcaption><strong>Suggested Sanitation System - Decision tree</strong></figcaption>
-    <img src="./rep_images/SuggestedSanit_DT.png" alt="Suggested Sanitation System" width="48%">
+    <img src="./rep_images/SuggestedSanit_DT.png" alt="Suggested Sanitation System" width="35%">
   </figure>
   <figure style="display: inline-block;">
     <figcaption><strong>Additional Recommendations - Decision tree</strong></figcaption>
-    <img src="./rep_images/AdditionalRecom_DT.png" alt="Additional Recommendations" width="48%">
+    <img src="./rep_images/AdditionalRecom_DT.png" alt="Additional Recommendations" width="35%">
   </figure>
 </div>
 
