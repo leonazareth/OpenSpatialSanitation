@@ -14,11 +14,11 @@ The step-by-step instructions for using the scripts developed are described belo
 
 The first step in using the scripts you have created is to create a new project in QGIS.
 
-1. Open QGIS
+1. Open QGIS.
 
-2. Click on the “New Project” button in the top left-hand corner of the window
+2. Click on the “New Project” button in the top left-hand corner of the window.
 
-3. Choose the directory where the new project will be saved and the name of the project
+3. Choose the directory where the new project will be saved and the name of the project.
 
 4. Add the project layers, for example a vector layer with the administrative regions, or a raster layer with the available satellite image.
 
@@ -117,6 +117,8 @@ Subareas are the smallest polygons formed by the intersection of the layers crea
 
 The delimitation of the subareas is not done manually. Instead, the algorithm **02 - Delimitation of Subareas** automatically generates them by intersecting all the parent layers defined in Step 1. The subareas are consolidated into a single layer, with all attributes combined and organized accordingly.
 
+<img src="./rep_images/subareas_generating.png" alt="CRS_config" width="500">
+
 ### Creating the Subareas:
 
 1. Double-click on **02 - Delimitation of Subareas** under the *Scripts > Sanitation Planning* section.
@@ -129,8 +131,64 @@ The delimitation of the subareas is not done manually. Instead, the algorithm **
 
 5. Click **Run** to execute the algorithm.
 
+#### Advanced Parameters (Optional)
+
+1. It is also possible to generate a population density grid in this script, just like in step 1, but it automatically clip the grids at the AOI boundaries.
+
 <img src="./rep_images/04-Step02_SubareaDelimitation.gif" alt="CRS_config" width="700">
 
 *Note: You can modify the attributes of the subareas at any time. This can be done using the attribute table or the Identify tool by clicking on the polygon and editing it via the feature form.*
+
+
+## Step Three - Delimitation of Subareas
+
+This process calculates indicators and suggests the most suitable sanitation system for each subarea. 
+
+The population dataset is a mandatory input (raster or vector format), while streets, paths, and building footprint layers are optional data.
+
+*Required Input Parameters*:
+  - Population Dataset Year: Year of the population dataset
+  - Low-Density Population Limit: Upper limit for low population density (inhab./ha)
+  - Medium-Density Population Limit: Upper limit for medium population density (inhab./ha)
+  - Annual Growth Rate: Annual population growth rate (%)
+  - Plan Start Year: Year the plan starts
+  - People per Household (Start): People per household at the start of the plan
+  - Plan End Year: Year the plan ends
+  - People per Household (End): People per household at the end of the plan
+  - Water Consumption Requirement: Minimum water consumption required for sewerage systems (L/inhab./day)
+  - Average Street Width (Optional)
+
+The suggested sanitation system (for the start and end of the plan) and additional recommendations are calculated based on predefined rules. These results are added as attributes in the generated layer:
+
+<div align="center">
+  <img src="./rep_images/SuggestedSanit_DT.png" alt="Suggested Sanitation System" width="48%">
+  <img src="./rep_images/AdditionalRecom_DT.png" alt="Additional Recommendations" width="48%">
+</div>
+
+
+Population projections are calculated using a simple linear projection based on the provided annual growth rate and the years of the dataset, plan start, and plan end. 
+
+Population density is classified into low, medium, or high density based on the subarea’s projected population.
+
+### Calculating indicators and suggested sanitation system:
+
+1. Double-click on **03 - Sanitation System Evaluation** under the *Scripts > Sanitation Planning* section.
+
+2. Select the **subarea layer** (created in Step Two).
+
+3. Choose a **population dataset** (raster or vector). If using a vector, specify the field that contains the population data.
+
+4. Input the required parameters.
+
+5. Specify the **name** and **directory** for the output layers. The algorithm will generate several layers, clipped by the external boundary of the subarea layer:
+   - Reprojected and clipped population dataset
+   - Population points layer (each point represents a pixel or polygon of the population dataset)
+   - Clipped street layer
+   - Clipped building footprint layer
+   - Subarea calculated layer with indicators, sanitation suggestions, and additional recommendations
+
+**IMPORTANT:** The *Population points*, *Clipped street*, and *Building footprint* layers must not be deleted or renamed after they are generated. Doing so will cause issues with the recalculation algorithms explained in the following sections.
+
+6. Click **Run** to execute the algorithm.
 
 
