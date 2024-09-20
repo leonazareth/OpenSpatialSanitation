@@ -40,9 +40,11 @@ Example of a Mercator CRS configuration using meters:
 <img src="./rep_images/CRS_config.png" alt="CRS_config" width="500">
 </div>
 
-2. The *Styles* folder downloaded with the scripts must be saved in the same directory as the QGIS project. For example, if the Exemplo_sanitation.qgz project is saved in the “C:/user/QGIS_project” directory, the Styles folder must be saved in the same location.
 
-*Note: This must be done for every new project in which the user wishes to use the scripts developed.*
+2. The *Styles* folder downloaded with the scripts must be saved in the same directory as the QGIS project.
+For example, if the Exemplo_sanitation.qgz project is saved in the *“C:/user/QGIS_project”* directory, the Styles folder must be saved in the same location.
+
+*Note: This must be done for every new project in which the user wants to use the scripts developed.*
 
 ## Step one - Create Base Layers
 
