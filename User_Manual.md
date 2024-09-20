@@ -44,6 +44,8 @@ Example of a Mercator CRS configuration using meters:
 2. The *Styles* folder downloaded with the scripts must be saved in the same directory as the QGIS project.
 For example, if the Exemplo_sanitation.qgz project is saved in the *“C:/user/QGIS_project”* directory, the Styles folder must be saved in the same location.
 
+<img src="./rep_images/01_ProjectFolderStyle.gif" alt="CRS_config">
+
 *Note: This must be done for every new project in which the user wants to use the scripts developed.*
 
 ## Step one - Create Base Layers
@@ -89,7 +91,7 @@ Additionally, under the *Advanced Parameters*, the script can optionally generat
 
    *Note: The population will be projected to the target year using a linear growth model, and the population density will be calculated accordingly.*
 
-<img src="./rep_images/Downloads.gif" alt="download">
+<img src="./rep_images/02_CreateBaseLayer01.gif" alt="CRS_config">
 
 ### Delimitating the areas:
 
