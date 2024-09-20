@@ -57,7 +57,7 @@ The Create Base Layers script generates standardized layers essential for sanita
 - **Water Availability** – Auxiliary layer
 - **Administrative Boundaries** – Auxiliary layer
 
-### Additionally, under the *Advanced Parameters*, the script can optionally generate a Population Density Grid.
+Additionally, under the *Advanced Parameters*, the script can optionally generate a Population Density Grid.
 
 ### To run the script:
 
@@ -72,8 +72,6 @@ The Create Base Layers script generates standardized layers essential for sanita
    *Note: Temporary layers will be lost when QGIS is closed, even if the project is saved.*
 
 5. Click **Run** to execute the script.
-
----
 
 ### Advanced Parameters (Optional)
 
