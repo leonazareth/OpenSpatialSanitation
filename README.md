@@ -79,17 +79,17 @@ The step-by-step instructions for manually download and installing the scripts i
 
 1. Open the QGIS
 
-2. Acesse o Menu *View > Panels > Processing Toolbox Panel*
+2. Go to Menu *View > Panels > Processing Toolbox Panel*.
 
-3. Na parte superior do painel Processing Toolbox clique no segundo botão "Scripts"
+3. At the top of the Processing Toolbox panel click on the second “Scripts” button
 
-4. Selecione a opção "Add Script to Toolbox"
+4. Select the “Add Script to Toolbox” option
 
-5. Selecione a pasta *Scripts* do arquivo descompactado
+5. Select the *Scripts* folder of the unzipped file
 
-6. Selecione todos os scripts (arquivos .py) e clique na opção "Open"
+6. Select all the scripts (.py files) and click on the “Open” option
 
-7. Os scripts serão adicionados na seção Scripts do Processing Toolbox Panel
+7. The scripts will be added to the Scripts section of the Processing Toolbox Panel
 
 <img src="./rep_images/Installation.gif" alt="download">
 
