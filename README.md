@@ -81,4 +81,5 @@ This repository will also include documentation on installing and using the scri
 
 
 ## License
-[License CC by 4.0][(https://www.tldrlegal.com/license/creative-commons-attribution-4-0-international-cc-by-4)]
+<a href="https://www.tldrlegal.com/license/creative-commons-attribution-4-0-international-cc-by-4" target="_blank">License CC by 4.0</a>
+
