@@ -71,7 +71,7 @@ The step-by-step instructions for manually download and installing the scripts i
 
 3. Click on “Download” and select a directory on your computer to save the .zip file
 
-*Note: The .zip file contains the scripts developed and the styles that will be used later
+*Note: The .zip file contains the scripts developed and the styles that will be used later*
 
 4. Unzip the folders from the .zip file into a directory on your computer
 
