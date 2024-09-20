@@ -1,5 +1,4 @@
 <h1 align="center">
-  <br>
   <img src="./rep_images/top_cover.png" alt="ArminC AutoExec">
 </h1>
 
@@ -8,8 +7,13 @@
 
   
 
-<h4 align="center">Repository of the Master of Science Thesis.</h4>
-												by Leonardo Porto Nazareth
+<h4 align="center">This research is done for the partial fulfilment of requirements for a Master of Science degree at the <br>
+ IHE Delft Institute for Water Education, Delft, the Netherlands.</h4>
+
+<p align="right">
+  <br>
+  <em>Leonardo Porto Nazareth</em>
+</p>
   
 
 <p align="center">
@@ -20,7 +24,7 @@
 
   <a href="#credits">Credits</a> •
 
-  <a href="#license">License</a>
+  <a href="#license">License</a> •
 
 </p>
 
@@ -36,13 +40,13 @@
 
 <td>
 
-This repository contains *QGIS scripts* developed to support the methodology proposed in the thesis, which aims to *enhance early-stage sanitation planning* using *open-access spatial data*.
+This repository contains **QGIS scripts** developed to support the methodology proposed in the thesis, which aims to **enhance early-stage sanitation planning** using **open-access spatial data**.
 
-The proposed methodology are developed to help sanitation planners and other stakeholders, such as utilities and decision-makers, better understand the spatial dynamics of sanitation projects.
+The proposed methodology is developed to help sanitation planners and other stakeholders, such as utilities and decision-makers, incorporate spatial data on sanitation planning.
 
-By integrating datasets—like *gridded population*, *streets and paths registers* and *building footprints*—these tools streamline the process of identifying context-appropriate sanitation solutions. 
+By integrating datasets—like gridded population, streets and paths registers, and building footprints—these tools ease identifying context-appropriate sanitation solutions. 
 
-This repository will also include documentation on how to install and use the scripts and relevant information for effective planning.
+This repository will also include documentation on installing and using the scripts and relevant information for effective planning.
 
   
 <p align="right">
@@ -64,19 +68,15 @@ This repository will also include documentation on how to install and use the sc
   
 
 
-
 ## Scripts
 
   
-
 
   
 
 ## Credits
 
   
-
-
   
 
 
