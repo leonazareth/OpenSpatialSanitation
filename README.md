@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="/rep_images/top_cover.png" alt="ArminC AutoExec">
+  <img src="./rep_images/top_cover.png" alt="Cover">
 </h1>
 
 
