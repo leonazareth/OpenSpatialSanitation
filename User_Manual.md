@@ -52,7 +52,7 @@ The step-by-step instructions for manually download and installing the scripts i
 
 ##### Downloading:
 
-1. Go to <a href=“https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Download_Resources/Scripts_Styles.zip”>LINK</a>
+1. Go to <a href="https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Download_Resources/Scripts_Styles.zip">LINK</a>
 
 2. Click on the “...” button at the top right of the page
 
@@ -87,7 +87,7 @@ Author: Leonardo Porto Nazareth.
 
 All the material contained in this repository is part of the thesis of the MSc programme in Water and Sustainable Development (Water and Health and Governance and Management), at the Institute for Water Education, Delft, Netherlands.
 
-The layout was inspired by the repository <a href=“https://github.com/ArmynC/ArminC-AutoExec”>Repository</a>
+The layout was inspired by the repository <a href="https://github.com/ArmynC/ArminC-AutoExec">Repository</a>
 
 ## License
 <a href="https://www.tldrlegal.com/license/creative-commons-attribution-4-0-international-cc-by-4" target="_blank">License CC by 4.0</a>
