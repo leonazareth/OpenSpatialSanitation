@@ -161,8 +161,14 @@ The population dataset is a mandatory input (raster or vector format), while str
 The suggested sanitation system (for the start and end of the plan) and additional recommendations are calculated based on predefined rules. These results are added as attributes in the generated layer:
 
 <div align="center">
-  <img src="./rep_images/SuggestedSanit_DT.png" alt="Suggested Sanitation System" width="48%">
-  <img src="./rep_images/AdditionalRecom_DT.png" alt="Additional Recommendations" width="48%">
+  <figure style="display: inline-block; margin-right: 20px;">
+    <figcaption><strong>Suggested Sanitation System - Decision tree</strong></figcaption>
+    <img src="./rep_images/SuggestedSanit_DT.png" alt="Suggested Sanitation System" width="48%">
+  </figure>
+  <figure style="display: inline-block;">
+    <figcaption><strong>Additional Recommendations - Decision tree</strong></figcaption>
+    <img src="./rep_images/AdditionalRecom_DT.png" alt="Additional Recommendations" width="48%">
+  </figure>
 </div>
 
 
