@@ -158,7 +158,7 @@ The population dataset is a mandatory input (raster or vector format), while str
   - Water Consumption Requirement: Minimum water consumption required for sewerage systems (L/inhab./day)
   - Average Street Width (Optional)
 
-The *suggested sanitation system [left]* (for the start and end of the plan) and *additional recommendations [right]* are calculated based on the following decision trees. These results are added as attributes in the generated layer:
+The **suggested sanitation system [left]** (for the start and end of the plan) and **additional recommendations [right]** are calculated based on the following decision trees. These results are added as attributes in the generated layer:
 
 <div align="center">
   <img src="./rep_images/SuggestedSanit_DT.png" alt="Suggested Sanitation System" width="48%">
