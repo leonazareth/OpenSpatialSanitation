@@ -22,9 +22,9 @@ The first step in using the scripts you have created is to create a new project 
 
 4. Add the project layers, for example a vector layer with the administrative regions, or a raster layer with the available satellite image.
 
-*Note: we recommend using the QGIS plugin “QuickMapServices” to add satellite image base layers or OpenStreetMaps.
+*Note: we recommend using the QGIS plugin “QuickMapServices” to add satellite image base layers or OpenStreetMaps.*
 
-*Note 2: you can download the project and base files used in the research case study (city of Boca Chica, Dominican Republic) from the <a href="https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Example_project/Example_project_Boca_Chica.zip">LINK</a> However, the water consumption data of the polygons has been altered for privacy reasons*
+*Note2: you can download the project and base files used in the research case study (city of Boca Chica, Dominican Republic) from the <a href="https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Example_project/Example_project_Boca_Chica.zip">LINK</a> However, the water consumption data of the polygons has been altered for privacy reasons*
 
 
 ## Project settings 
@@ -32,6 +32,10 @@ The first step in using the scripts you have created is to create a new project 
 In order for the scripts to work correctly, some settings must be made in the project:
 
 1. The project must be configured with a Coordinate Reference System (CRS) that uses the mercator projection and the metos unit. To do this, after creating the project and adding the vector layers, the user must click on the button in the bottom right-hand corner of the screen, which indicates the project's current EPSG code, and in the window displayed select the CRS of the location they are working in.
+
+Example of a Mercator CRS configuration using meters:
+
+<img src="./rep_images/CRS_config.png" alt="CRS_config" width="500">
 
 2. The *Styles* folder downloaded with the scripts must be saved in the same directory as the QGIS project. For example, if the Exemplo_sanitation.qgz project is saved in the “C:/user/QGIS_project” directory, the Styles folder must be saved in the same location.
 *Note: This must be done for every new project in which the user wishes to use the scripts developed.
