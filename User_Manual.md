@@ -24,13 +24,8 @@ The first step in using the scripts you have created is to create a new project 
 
 *Note: we recommend using the QGIS plugin “QuickMapServices” to add satellite image base layers or OpenStreetMaps.
 
-*Note 2: you can download the project and base files used in the research case study (city of Boca Chica, Dominican Republic) from the* 
+*Note 2: you can download the project and base files used in the research case study (city of Boca Chica, Dominican Republic) from the <a href="https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Example_project/Example_project_Boca_Chica.zip">LINK</a> However, the water consumption data of the polygons has been altered for privacy reasons*
 
-<a href=“https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Example_project/Example_project_Boca_Chica.zip” target="_blank">LINK</a>
-
-*However, the water consumption data of the polygons has been altered for privacy reasons*
-
-<a href=“https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Example_project/Example_project_Boca_Chica.zip”>LINK</a> 
 
 ## Project settings 
 
