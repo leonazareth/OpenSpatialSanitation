@@ -75,7 +75,7 @@ The step-by-step instructions for manually download and installing the scripts i
 
 4. Unzip the folders from the .zip file into a directory on your computer
 
-<img src="./rep_images/Downloads.gif" alt="download">
+<img src="./rep_images/Downloads.gif" alt="download" width="700">>
 
 ##### Installing:
 
@@ -93,7 +93,7 @@ The step-by-step instructions for manually download and installing the scripts i
 
 7. The scripts will be added to the Scripts section of the Processing Toolbox Panel
 
-<img src="./rep_images/Installation.gif" alt="download">
+<img src="./rep_images/Installation.gif" alt="download" width="700">>
 
 
 ## Credits
