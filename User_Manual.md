@@ -13,21 +13,21 @@
 1. [Creating and configuring a new project in QGIS](#creating-and-configuring-a-new-project-in-qgis)
 2. [Project settings](#project-settings)
 3. [Step One - Create Base Layers](#step-one---create-base-layers)
-   - [Creating the base layers (configuring and running the script)](#creating-the-base-layers-configuring-and-running-the-script)
-   - [Delimiting the Areas](#delimiting-the-areas)
+  - [Creating the base layers (configuring and running the script)](#creating-the-base-layers-configuring-and-running-the-script)
+  - [Delimiting the Areas](#delimiting-the-areas)
 4. [Step Two - Delimitation of Subareas](#step-two---delimitation-of-subareas)
-   - [Creating the Subareas](#creating-the-subareas)
-   - [Advanced Parameters (Optional)](#advanced-parameters-optional)
+  - [Creating the Subareas](#creating-the-subareas)
+  - [Advanced Parameters (Optional)](#advanced-parameters-optional)
 5. [Step Three - Sanitation System Evaluation](#step-three---sanitation-system-evaluation)
-   - [Calculating indicators and suggested sanitation system](#calculating-indicators-and-suggested-sanitation-system)
+  - [Calculating indicators and suggested sanitation system](#calculating-indicators-and-suggested-sanitation-system)
 6. [Adjustments to the Subareas](#adjustments-to-the-subareas)
-   - [Adjustments to Parameters](#adjustments-to-parameters-without-changing-subarea-geometry)
-   - [Adjustments to Subarea Geometry](#adjustments-to-subarea-geometry)
+  - [Adjustments to Parameters](#adjustments-to-parameters-without-changing-subarea-geometry)
+  - [Adjustments to Subarea Geometry](#adjustments-to-subarea-geometry)
 
 
 The step-by-step instructions for using the scripts developed are described below.
 
-## Creating and configuring a new project in QGIS
+## 1. Creating and configuring a new project in QGIS
 
 The first step in using the scripts you have created is to create a new project in QGIS.
 
@@ -44,7 +44,7 @@ The first step in using the scripts you have created is to create a new project 
 *Note2: you can download the project and base files used in the research case study (city of Boca Chica, Dominican Republic) from the <a href="https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Example_project/Example_project_Boca_Chica.zip">LINK</a> However, the water consumption data of the polygons has been altered for privacy reasons*
 
 
-## Project settings 
+## 2. Project settings 
 
 In order for the scripts to work correctly, some settings must be made in the project:
 
@@ -65,7 +65,7 @@ For example, if the Exemplo_sanitation.qgz project is saved in the *“C:/user/Q
 
 *Note: This must be done for every new project in which the user wants to use the scripts developed.*
 
-## Step one - Create Base Layers
+## 3. Step one - Create Base Layers
 
 The Create Base Layers script is designed to assist planners in defining project areas and ensuring that all necessary data is included. It facilitates the process of creating and organizing essential spatial information for sanitation planning.
 
@@ -128,7 +128,7 @@ To delimit the areas, follow these steps:
 
 *Note: To edit, delete, or modify the attributes of the polygons, use QGIS’ native tools, such as Delete Features, Vertex Tool, or Attribute table.*
 
-## Step Two - Delimitation of Subareas
+## 4. Step Two - Delimitation of Subareas
 
 Subareas are the smallest polygons formed by the intersection of the layers created in the previous step.
 
@@ -157,7 +157,7 @@ The delimitation of the subareas is not done manually. Instead, the algorithm **
 *Note: You can modify the attributes of the subareas at any time. This can be done using the attribute table or the Identify tool by clicking on the polygon and editing it via the feature form.*
 
 
-## Step Three - Delimitation of Subareas
+## 5. Step Three - Delimitation of Subareas
 
 This process creates a **Subarea Sanitation Suggestion** layer, by calculating indicators and the most suitable sanitation system for each subarea. 
 
@@ -211,7 +211,7 @@ Population density is classified into low, medium, or high density based on the 
 
 **IMPORTANT:** The *Population points*, *Clipped street*, and *Building footprint* layers must not be deleted or renamed after they are generated. Doing so will cause issues with the recalculation algorithms explained in the following sections.
 
-## Adjustments to the Subareas
+## 6. Adjustments to the Subareas
 
 Tools and scripts have been developed to allow users to make adjustments and modify the parameters of each **Subarea Sanitation Suggestion** feature individually, if needed, and quickly recalculate the associated indicators and results.
 
