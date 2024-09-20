@@ -63,11 +63,12 @@ The step-by-step instructions for manually download and installing the scripts i
 
 ##### Downloading:
 
-1. Go to <a href=“https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Download_Resources/Scripts_Styles.zip”>LINK</a>
+1. Go to <a href=“https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Download_Resources/Scripts_Styles.zip” target="_blank">LINK</a>
 
 2. Click on the “...” button at the top right of the page
 
 3. Click on “Download” and select a directory on your computer to save the .zip file
+
 *Note: The .zip file contains the scripts developed and the styles that will be used later
 
 4. Unzip the folders from the .zip file into a directory on your computer

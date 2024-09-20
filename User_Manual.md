@@ -21,9 +21,14 @@ The first step in using the scripts you have created is to create a new project 
 3. Choose the directory where the new project will be saved and the name of the project
 
 4. Add the project layers, for example a vector layer with the administrative regions, or a raster layer with the available satellite image.
+
 *Note: we recommend using the QGIS plugin “QuickMapServices” to add satellite image base layers or OpenStreetMaps.
 
-*Note 2: you can download the project and base files used in the research case study (city of Boca Chica, Dominican Republic) from the* <a href=“https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Example_project/Example_project_Boca_Chica.zip”>LINK</a> *. However, the water consumption data of the polygons has been altered for privacy reasons*
+*Note 2: you can download the project and base files used in the research case study (city of Boca Chica, Dominican Republic) from the* 
+
+<a href=“https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Example_project/Example_project_Boca_Chica.zip” target="_blank">LINK</a>
+
+*However, the water consumption data of the polygons has been altered for privacy reasons*
 
 <a href=“https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Example_project/Example_project_Boca_Chica.zip”>LINK</a> 
 
