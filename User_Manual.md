@@ -190,6 +190,8 @@ Population density is classified into low, medium, or high density based on the 
 
 **IMPORTANT:** The *Population points*, *Clipped street*, and *Building footprint* layers must not be deleted or renamed after they are generated. Doing so will cause issues with the recalculation algorithms explained in the following sections.
 
+<img src="./rep_images/05-CalculateSanitationSystem.gif" alt="CRS_config" width="700">
+
 6. Click **Run** to execute the algorithm.
 
 
