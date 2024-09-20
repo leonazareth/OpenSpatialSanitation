@@ -111,5 +111,26 @@ To delimit the areas, follow these steps:
 
 *Note: To edit, delete, or modify the attributes of the polygons, use QGIS’ native tools, such as Delete Features, Vertex Tool, or Attribute table.*
 
+## Step Two - Delimitation of Subareas
+
+Subareas are the smallest polygons formed by the intersection of the layers created in the previous step.
+
+The delimitation of the subareas is not done manually. Instead, the algorithm **02 - Delimitation of Subareas** automatically generates them by intersecting all the parent layers defined in Step 1. The subareas are consolidated into a single layer, with all attributes combined and organized accordingly.
+
+### Creating the Subareas:
+
+1. Double-click on **02 - Delimitation of Subareas** under the *Scripts > Sanitation Planning* section.
+
+2. Select the layers with the delimited areas created in Step One.
+
+3. Define the **minimum size** for the subareas. This helps to avoid generating small polygons in the gaps between previously delimited areas.
+
+4. Choose the name and directory for the Subarea Layer.
+
+5. Click **Run** to execute the algorithm.
+
+<img src="./rep_images/04-Step02_SubareaDelimitation.gif" alt="CRS_config" width="700">
+
+*Note: You can modify the attributes of the subareas at any time. This can be done using the attribute table or the Identify tool by clicking on the polygon and editing it via the feature form.*
 
 
