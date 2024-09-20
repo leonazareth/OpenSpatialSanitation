@@ -33,11 +33,9 @@ In order for the scripts to work correctly, some settings must be made in the pr
 
 1. The project must be configured with a Coordinate Reference System (CRS) that uses the mercator projection and the metos unit. To do this, after creating the project and adding the vector layers, the user must click on the button in the bottom right-hand corner of the screen, which indicates the project's current EPSG code, and in the window displayed select the CRS of the location they are working in.
 
-<div style="text-align: center;">
+<div align="center">
 Example of a Mercator CRS configuration using meters:
-</div>
 
-<div style="text-align: center;">
 <img src="./rep_images/CRS_config.png" alt="CRS_config" width="500">
 </div>
 
