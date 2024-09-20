@@ -48,20 +48,55 @@ For example, if the Exemplo_sanitation.qgz project is saved in the *“C:/user/Q
 
 ## Step one - Create Base Layers
 
-The step-by-step instructions for manually download and installing the scripts in QGIS are described below
+The Create Base Layers script is designed to assist planners in defining project areas and ensuring that all necessary data is included. It facilitates the process of creating and organizing essential spatial information for sanitation planning.
 
-##### Downloading:
+The Create Base Layers script generates standardized layers essential for sanitation planning:
 
-1. Go to <a href="https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Download_Resources/Scripts_Styles.zip">LINK</a>
+- **Area of Interest (AOI)** – Mandatory layer
+- **Existing Sanitation Systems** – Auxiliary layer
+- **Water Availability** – Auxiliary layer
+- **Administrative Boundaries** – Auxiliary layer
 
-2. Click on the “...” button at the top right of the page
+### Additionally, under the *Advanced Parameters*, the script can optionally generate a Population Density Grid.
 
-3. Click on “Download” and select a directory on your computer to save the .zip file
-*Note: The .zip file contains the scripts developed and the styles that will be used later
+### To run the script:
 
-4. Unzip the folders from the .zip file into a directory on your computer
+1. Open the **Processing Toolbox Panel** and double-click on **01 Create Base Layers** under the *Scripts > Sanitation Planning* section.
+
+2. In the **Processing Algorithm Window**, select the checkboxes for the layers you wish to create.
+
+3. Ensure a **Mercator CRS (meter-based)** is selected (if not, manually select one).
+
+4. Choose the **format** and **directory** for the output layers. If no directory is specified, the script will generate **temporary layers**.
+
+   *Note: Temporary layers will be lost when QGIS is closed, even if the project is saved.*
+
+5. Click **Run** to execute the script.
+
+---
+
+### Advanced Parameters (Optional)
+
+1. To generate a population density grid, expand the *Advanced Parameters* by clicking the arrow beside it.
+
+2. Specify the **extent** for the grid creation (e.g., the current map canvas extent).
+
+3. Choose either a **Raster** or **Vector** layer that contains population data. For **Vector** layers, select the field that stores the population data.
+
+4. Provide additional information such as:
+   - The **year** of the population dataset,
+   - The **type** and **size** of the grid to be created,
+   - The **annual growth rate**, and
+   - The **target year** for the population projection.
+
+   *Note: The population will be projected to the target year using a linear growth model, and the population density will be calculated accordingly.*
 
 <img src="./rep_images/Downloads.gif" alt="download">
+
+### Delimitating the areas:
+
+
+
 
 ##### Installing:
 
