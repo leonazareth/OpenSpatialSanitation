@@ -218,6 +218,8 @@ To adjust parameters without altering the geometry:
 
 7. Save the layer.
 
+<img src="./rep_images/06-ParameterChange.gif" alt="CRS_config" width="700">
+
 ### Adjustments to Subarea Geometry
 
 To adjust the geometry of subareas:
@@ -234,3 +236,4 @@ To adjust the geometry of subareas:
 
 6. Click **Run** to execute the recalculation.
 
+<img src="./rep_images/07-SubareaGeometryEdit.gif" alt="CRS_config" width="700">
