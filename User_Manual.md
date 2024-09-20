@@ -61,7 +61,7 @@ The Create Base Layers script generates standardized layers essential for sanita
 
 Additionally, under the *Advanced Parameters*, the script can optionally generate a Population Density Grid.
 
-### To run the script:
+### Creating the base layers (configuring and running the script):
 
 1. Open the **Processing Toolbox Panel** and double-click on **01 Create Base Layers** under the *Scripts > Sanitation Planning* section.
 
@@ -75,7 +75,7 @@ Additionally, under the *Advanced Parameters*, the script can optionally generat
 
 5. Click **Run** to execute the script.
 
-### Advanced Parameters (Optional)
+#### Advanced Parameters (Optional)
 
 1. To generate a population density grid, expand the *Advanced Parameters* by clicking the arrow beside it.
 
@@ -93,37 +93,23 @@ Additionally, under the *Advanced Parameters*, the script can optionally generat
 
 <img src="./rep_images/02_CreateBaseLayer01.gif" alt="CRS_config" width="700">
 
-### Delimitating the areas:
+### Delimiting the Areas:
+
+To delimit the areas, follow these steps:
+
+1. Select the layer you want to use for delimitation. For example, to outline the project area, select the **AOI (Area of Interest)** layer.
+
+2. Toggle the selected layer to **Edit Mode**.
+
+3. Use the **Drawing Features** tool in QGIS to begin delineating the area of interest for the project.
+
+4. Once you have finished drawing, right-click to complete the shape, and then click **OK** in the form dialog.
+
+5. Depending on the layer in use, certain mandatory information may need to be entered before clicking **OK** in the form window.
+
+<img src="./rep_images/03-BaseLayer_Delimitating.gif" alt="CRS_config" width="700">
+
+*Note: To edit, delete, or modify the attributes of the polygons, use QGIS’ native tools, such as **Select Features**, **Vertex Tool**, or **Field Calculator**.*
 
 
-
-
-##### Installing:
-
-1. Open the QGIS
-
-2. Go to Menu *View > Panels > Processing Toolbox Panel*.
-
-3. At the top of the Processing Toolbox panel click on the second “Scripts” button
-
-4. Select the “Add Script to Toolbox” option
-
-5. Select the *Scripts* folder of the unzipped file
-
-6. Select all the scripts (.py files) and click on the “Open” option
-
-7. The scripts will be added to the Scripts section of the Processing Toolbox Panel
-
-<img src="./rep_images/Installation.gif" alt="download">
-
-
-## Credits
-Author: Leonardo Porto Nazareth.
-
-All the material contained in this repository is part of the thesis of the MSc programme in Water and Sustainable Development (Water and Health and Governance and Management), at the Institute for Water Education, Delft, Netherlands.
-
-The layout was inspired by the repository <a href="https://github.com/ArmynC/ArminC-AutoExec">Repository</a>
-
-## License
-<a href="https://www.tldrlegal.com/license/creative-commons-attribution-4-0-international-cc-by-4" target="_blank">License CC by 4.0</a>
 
