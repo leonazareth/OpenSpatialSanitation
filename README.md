@@ -60,22 +60,42 @@ This repository will also include documentation on installing and using the scri
 
 ## Installation
 
-  
+The step-by-step instructions for manually download and installing the scripts in QGIS are described below
 
 ##### Downloading:
 
+1. Go to <a href=“https://github.com/leonazareth/OpenSpatialSanitation/blob/main/Download_Resources/Scripts_Styles.zip”>LINK</a>
 
+2. Click on the “...” button at the top right of the page
+
+3. Click on “Download” and select a directory on your computer to save the .zip file
+*Note: The .zip file contains the scripts developed and the styles that will be used later
+
+4. Unzip the folders from the .zip file into a directory on your computer
 
 <img src="./rep_images/Downloads.gif" alt="download">
 
-  
+##### Installing:
 
+1. Open the QGIS
+
+2. Acesse o Menu *View > Panels > Processing Toolbox Panel*
+
+3. Na parte superior do painel Processing Toolbox clique no segundo botão "Scripts"
+
+4. Selecione a opção "Add Script to Toolbox"
+
+5. Selecione a pasta *Scripts* do arquivo descompactado
+
+6. Selecione todos os scripts (arquivos .py) e clique na opção "Open"
+
+7. Os scripts serão adicionados na seção Scripts do Processing Toolbox Panel
+
+<img src="./rep_images/Installation.gif" alt="download">
 
 ## Scripts
 
-  
 
-  
 
 ## Credits
 
