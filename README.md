@@ -20,7 +20,7 @@
 
   <a href="#installation">Installation</a> •
 
-  <a href="“https://github.com/leonazareth/OpenSpatialSanitation/User_Manual.md">User Manual</a> •
+  <a href="https://github.com/leonazareth/OpenSpatialSanitation/blob/main/User_Manual.md">User Manual</a> •
 
   <a href="#credits">Credits</a> •
 
@@ -28,7 +28,6 @@
 
 </p>
 
-  
 
 ---
 
