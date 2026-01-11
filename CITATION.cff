@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the MSc thesis."
+title: "OpenSpatialSanitation"
+type: software
+authors:
+  - family-names: "Nazareth"
+    given-names: "Leonardo Porto"
+year: 2024
+date-released: "2024-01-01"
+url: "https://github.com/leonazareth/OpenSpatialSanitation"
+keywords:
+  - sanitation
+  - spatial data
+  - QGIS
+  - GIS
+  - open data
+  - planning
+preferred-citation:
+  type: thesis
+  authors:
+    - family-names: "Nazareth"
+      given-names: "Leonardo Porto"
+  year: 2024
+  title: "Using Open-Access Spatial Data for Enhanced Sanitation Planning"
+  institution: "IHE Delft Institute for Water Education"
+  thesis-type: "MSc thesis"
+  url: "https://github.com/leonazareth/OpenSpatialSanitation"
